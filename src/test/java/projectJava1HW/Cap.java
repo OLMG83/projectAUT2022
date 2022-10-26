@@ -1,4 +1,4 @@
-package hw1;
+package projectJava1HW;
 
 public class Cap {
     private String color;
