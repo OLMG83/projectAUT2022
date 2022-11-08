@@ -17,7 +17,7 @@ public class SeleniumNewTest {
 
         By.xpath(".//div [@class='home-caption']");
 
-        By.xpath("//*[@id=\"pick-date-ui\"]");
+        By.xpath("//*[@id='pick-date-ui']");
 
         By.xpath(".//span[@class='sb-residence-text']");
 
@@ -30,6 +30,29 @@ public class SeleniumNewTest {
         By.xpath(".//a[@data-label= 'Navigation']");
 
         By.xpath("//*[@id= 'location-submit']");
+
+        By.xpath(".//div[@class='img small']");
+
+        By.xpath(".//span[@class='category-label trend']");
+
+        By.xpath(".//span[@class='min-price']");
+
+        By.xpath(".//label[@for='fuel-type-ft-V']");
+
+        By.xpath(".//label[@for='number-of-seats-seats-4']");
+
+        By.xpath(".//a[@data-id='48-3BBG']");
+
+        By.xpath(".//span[@aria-describedby='qtip-29']");
+
+        By.xpath(".//div[@class='price-item-price-main']");
+
+        By.xpath(".//div[@/div='$0']");
+
+        By.xpath(".//div[@class='mb-8 text-24 text-bold text-center']");
+
+        By.xpath(".//div[@class='mb-24 text-center']");
+
     }
 }
 
