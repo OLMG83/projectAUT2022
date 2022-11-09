@@ -20,6 +20,5 @@ public class ProjectJavaGetSet {
 
         System.out.println("2n order");
         System.out.println(secondOrder.getTotalPrice());
-
     }
 }
