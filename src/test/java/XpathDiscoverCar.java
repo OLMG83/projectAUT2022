@@ -52,7 +52,6 @@ public class XpathDiscoverCar {
 
         By.xpath(".//div[@class='mb-24 text-center']");
 
-
     }
 }
 
