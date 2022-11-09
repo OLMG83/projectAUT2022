@@ -17,6 +17,5 @@ public class XpathExampleVerizon {
 
         By.xpath("//*[@id='gnav20-Shop-L1']");
 
-
     }
 }
