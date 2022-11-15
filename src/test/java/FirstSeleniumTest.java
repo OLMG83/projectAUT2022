@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 public class FirstSeleniumTest {
-    private final By ACCEPT_COOKIES_BTN = By.id("onetrust-accept-btn-hander");
-    private final By TOP_LOCATION_LINK = By.xpath(".//div[@class= 'tl-box']/a");
+    private final By ACCEPT_COOKIES_BTN = By.id("onetrust-accept-btn-handler");
+    private final By TOP_LOCATION_LINK = By.xpath(".//div[@class = 'tl-box']/a");
 
     private WebDriver browser;
     private WebDriverWait wait;
@@ -33,8 +33,6 @@ public class FirstSeleniumTest {
         browser.findElement(ACCEPT_COOKIES_BTN).click();
 
         clickOnCountry(country);
-        clickOnCountry("latvia");
-
         }
         private void clickOnCountry(String country) {
             List<WebElement> links = browser.findElements(TOP_LOCATION_LINK);
@@ -47,7 +45,6 @@ public class FirstSeleniumTest {
                 link.click();
                 break;
             }
-
         }
 
         Assertions.assertTrue(isCountryFound,"Country not found!");
